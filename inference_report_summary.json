@@ -5,14 +5,21 @@
     "model_architecture": "Multi-Layer Perceptron",
     "deletion_set_size": 100,
     "total_training_samples": "~32,000",
-    "report_generated": "2025-10-13 16:21:36"
+    "report_generated": "2025-10-13 16:40:04"
   },
   "report_summary": {
     "methodology": "Fisher Information Matrix-based Pruning for Data Deletion",
     "objective": "Approximate data deletion with utility-privacy balance",
     "approach": "Parameter importance ranking and selective pruning",
-    "evaluation": "Membership inference attacks and utility measurement"
+    "evaluation": "Membership inference attacks and utility measurement",
+    "best_pruning_fraction": 0.2,
+    "utility_retention": "100.2%",
+    "privacy_improvement": "2.9%",
+    "computational_speedup": "1.09x",
+    "combined_score": "0.8473",
+    "final_accuracy": "0.8500",
+    "final_mia_accuracy": "0.505"
   },
-  "generation_timestamp": "2025-10-13T16:21:38.161752",
+  "generation_timestamp": "2025-10-13T22:26:06.927725",
   "notebook_version": "FIM_Pruning_v1.0"
 }
